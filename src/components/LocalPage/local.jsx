@@ -10,7 +10,7 @@ import thirdecumenical1 from "@/source/Local/thirdecumenicalconference/1.jpeg";
 import thirdecumenical2 from "@/source/Local/thirdecumenicalconference/2.jpeg";
 import thirdecumenical3 from "@/source/Local/thirdecumenicalconference/3.jpeg";
 
-import baptism1 from "@/source/Local/Baptism/BAPTISM/1.jpg";
+// import baptism1 from "@/source/Local/Baptism/BAPTISM/1.jpg";
 import baptism2 from "@/source/Local/Baptism/BAPTISM/2.jpg";
 import baptism3 from "@/source/Local/Baptism/BAPTISM/3new.jpg";
 import baptism4 from "@/source/Local/Baptism/BAPTISM/4.jpg";
@@ -374,7 +374,7 @@ export default function LocalPage() {
           </Col>
           <Col md={6} className="local-col1 lazy-appear1">
             <ImageSlider time={3500} transitionDuration={"1s"}>
-              <img src={baptism1.src} alt="" />
+              {/* <img src={baptism1.src} alt="" /> */}
               <img src={baptism2.src} alt="" />
               <img src={baptism3.src} alt="" />
               <img src={baptism4.src} alt="" />
