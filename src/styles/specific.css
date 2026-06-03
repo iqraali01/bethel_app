@@ -206,10 +206,10 @@ li:hover .my-dropdown {
     position: relative;
   background-image: url("/Images/footer-bg.jpg");
   background-repeat: no-repeat;
-  background-size: cover;     /* ⬅️ VERY IMPORTANT (no crop) */
+  background-size: cover;       /* VERY IMPORTANT (no crop) */
   background-position: center;
   background-color: #000;        /* fallback */
-  overflow-x: hidden;            /* ⬅️ prevents horizontal scroll */
+  overflow-x: hidden;            /*  prevents horizontal scroll */
 
 }
 
@@ -217,7 +217,7 @@ li:hover .my-dropdown {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.65); /* 👈 DARKNESS CONTROL */
+  background: rgba(0, 0, 0, 0.65);    /* DARKNESS CONTROL */
   z-index: 0;
 }
 

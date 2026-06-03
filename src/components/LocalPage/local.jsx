@@ -12,7 +12,7 @@ import thirdecumenical3 from "@/source/Local/thirdecumenicalconference/3.jpeg";
 
 import baptism1 from "@/source/Local/Baptism/BAPTISM/1.jpg";
 import baptism2 from "@/source/Local/Baptism/BAPTISM/2.jpg";
-import baptism3 from "@/source/Local/Baptism/BAPTISM/3.jpg";
+import baptism3 from "@/source/Local/Baptism/BAPTISM/3new.jpg";
 import baptism4 from "@/source/Local/Baptism/BAPTISM/4.jpg";
 import baptism5 from "@/source/Local/Baptism/BAPTISM/5.jpg";
 import baptism6 from "@/source/Local/Baptism/BAPTISM/6.jpg";
@@ -32,12 +32,12 @@ import baptism19 from "@/source/Local/Baptism/BAPTISM/baptism19.jpg";
 import baptism20 from "@/source/Local/Baptism/BAPTISM/baptism20.jpg";
 import baptism21 from "@/source/Local/Baptism/BAPTISM/baptism21.jpg";
 
-import marwari1 from "@/source/Local/Marwari/MARWARI/1.jpg";
+import marwari1 from "@/source/Local/Marwari/MARWARI/1.jpeg";
 import marwari2 from "@/source/Local/Marwari/MARWARI/2.jpg";
 import marwari3 from "@/source/Local/Marwari/MARWARI/3.jpg";
 import marwari4 from "@/source/Local/Marwari/MARWARI/4.jpg";
 import marwari5 from "@/source/Local/Marwari/MARWARI/5.jpg";
-import marwari6 from "@/source/Local/Marwari/MARWARI/6.jpg";
+// import marwari6 from "@/source/Local/Marwari/MARWARI/6.jpg";
 import marwari7 from "@/source/Local/Marwari/MARWARI/7.jpg";
 import marwari8 from "@/source/Local/Marwari/MARWARI/8.jpg";
 import marwari9 from "@/source/Local/Marwari/MARWARI/9.jpg";
@@ -232,7 +232,7 @@ export default function LocalPage() {
               <img src={marwari3.src} alt="" />
               <img src={marwari4.src} alt="" />
               <img src={marwari5.src} alt="" />
-              <img src={marwari6.src} alt="" />
+              {/* <img src={marwari6.src} alt="" /> */}
               <img src={marwari7.src} alt="" />
               <img src={marwari8.src} alt="" />
               <img src={marwari9.src} alt="" />
