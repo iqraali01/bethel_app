@@ -1,112 +1,8 @@
-
-// import Image from "next/image";
-// import Link from "next/link";
-// import React from "react";
-// import compassionImg from "../source/compassionnrelief-hero-image.png"; // 🔁 replace with correct image if needed
-
-
-// const About = () => {
-//   return (
-//     <>
-//         {/* <div className="style-115">
-//             <div className="style-116">
-//                 <h1 className="style-117">Leadership Development<br className="style-118" /></h1>
-//             </div>
-//         </div>
-//         <div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" className="style-119">
-//             <div className="style-120">
-//                 <p className="verse">
-//                     <q>
-//                         Have I not commanded you? Be strong and courageous. Do not be afraid; <br />
-//                         Do not be discouraged, for the Lord your God will be with you wherever you go.
-//                     </q>
-//                 </p>
-//                 <p className="reference">-- JOSHUA 1:9</p>
-//             </div>
-//             <div className="style-132" data-wf-ignore=""></div>
-//         </div> */}
-        
-//         <section className="compassion-hero">
-//         <div className="compassion-inner">
-        
-// //         {/* LEFT SIDE – IMAGE */}
-// //         <div className="compassion-image">
-// //           <Image
-//             src={compassionImg}
-//             alt="Compassion and Relief"
-//             fill
-//             priority
-//             className="img-cover"
-//           />
-//         </div>
-
-//         {/* RIGHT SIDE – TEXT */}
-//         <div className="compassion-content">
-//           <h1 className="compassion-title">
-//             Standing With the Vulnerable.<br />
-//             Serving With Christ’s Love.
-//           </h1>
-
-//           <p className="compassion-subtitle">
-//             Compassion is not an option – it is our calling.
-//           </p>
-//         </div>
-
-//       </div>
-//       </section>
-//         {/* </div> */}
-//     </>
-//   );
-// };
-
-// export default About;
-
-
-// // import React from "react";
-// // import Image from "next/image";
-// // import compassionImg from "../source/empoweringchurch_img.jpeg"; // 🔁 replace with correct image if needed
-
-// // const CompassionHeroSection = () => {
-// //   return (
-// //     <section className="compassion-hero">
-// //       <div className="compassion-inner">
-        
-// //         {/* LEFT SIDE – IMAGE */}
-// //         <div className="compassion-image">
-// //           <Image
-// //             src={compassionImg}
-// //             alt="Compassion and Relief"
-// //             fill
-// //             priority
-// //             className="img-cover"
-// //           />
-// //         </div>
-
-// //         {/* RIGHT SIDE – TEXT */}
-// //         <div className="compassion-content">
-// //           <h1 className="compassion-title">
-// //             Standing With the Vulnerable.<br />
-// //             Serving With Christ’s Love.
-// //           </h1>
-
-// //           <p className="compassion-subtitle">
-// //             Compassion is not an option – it is our calling.
-// //           </p>
-// //         </div>
-
-// //       </div>
-// //     </section>
-// //   );
-// // };
-
-// // export default CompassionHeroSection;
-
-
 // import React from "react";
 import Image from "next/image";
 // import React, { useEffect, useState } from "react";
 import { useEffect, useState } from "react";
-import compassionImg from "../source/compassionnrelief-hero-image.png"; // replace if needed
+import compassionImg from "../source/compassionnrelief-hero-image-new.png"; // replace if needed
 import img1 from "@/source/whatwedo_img1.jpeg"
 import img2 from "@/source/whatwedo_img2.jpeg"
 import img3 from "@/source/whatwedo_img3.jpeg"
@@ -214,22 +110,6 @@ useEffect(() => {
     }, 800);
   }
 }, [sliderIndex]);
-
-
-// useEffect(() => {
-//   if (sliderIndex === slides.length) {
-//     const track = document.querySelector(".cr-auto-slider-track");
-
-//     if (track) {
-//       track.style.transition = "none";
-//       setSliderIndex(0);
-
-//       requestAnimationFrame(() => {
-//         track.style.transition = "transform 0.8s ease-in-out";
-//       });
-//     }
-//   }
-// }, [sliderIndex]);
 
 
   return (
